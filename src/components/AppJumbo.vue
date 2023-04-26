@@ -11,6 +11,9 @@ export default {
 
 <template>
 <div class="jumbo-container d-flex justify-content-center align-items-center">
+    <div class="left-icons-container">
+
+    </div>
     <div class="jumbo-content d-flex flex-column align-items-center justify-content-center">
         <h2 class="jumbo-title">Key to your success</h2>
         <p>EduPrime is the most versatile WordPress theme for educational purposes, showcasing universities, courses, secondary schools, etc.</p>
@@ -19,6 +22,8 @@ export default {
             <button class="btn-dx"><a href="#">Apply for university</a></button>
         </div>
     </div>
+
+    <img class="waves" src="../assets/edu/img/Wave-1.png" alt="Wave-1">
 </div>
 </template>
 
@@ -27,6 +32,22 @@ export default {
     width: 100%;
     height: 25rem;
     color: white;
+    position: relative;
+
+    .waves {
+        position: absolute;
+        bottom: 0;
+    }
+    .left-icons-container {
+        position: absolute;
+        left: 0;
+        top: 50;
+        width: 35px;
+        height: 100px;
+        background-color: #BAAC46;
+        color: white;
+        border-radius: 3px;
+    }
 }
 
 .jumbo-content {
