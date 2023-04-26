@@ -1,10 +1,12 @@
 <script>
 import mainTop from './partials/mainTop.vue';
+import mainMiddleVue from './partials/mainMiddle.vue';
 
 export default {
     name: "AppMain",
     components: {
         mainTop,
+        mainMiddleVue,
     },
     data() {
         return {
@@ -17,19 +19,8 @@ export default {
 <template>
 <main>
     <mainTop />
-    <!-- <div class="main-top container">
-        
-    </div>
-
-    <div class="main-middle">
-        <div class="main-middle-container container">
-
-        </div>
-    </div>
+    <mainMiddleVue />
     
-    <div class="main-bottom container">
-
-    </div> -->
 </main>
 </template>
 
