@@ -1,6 +1,11 @@
 <script>
+import mainTop from './partials/mainTop.vue';
+
 export default {
     name: "AppMain",
+    components: {
+        mainTop,
+    },
     data() {
         return {
 
@@ -11,7 +16,8 @@ export default {
 
 <template>
 <main>
-    <div class="main-top container">
+    <mainTop />
+    <!-- <div class="main-top container">
         
     </div>
 
@@ -23,7 +29,7 @@ export default {
     
     <div class="main-bottom container">
 
-    </div>
+    </div> -->
 </main>
 </template>
 
@@ -32,20 +38,20 @@ export default {
 main {
     background-color: white;
 }
-.main-top {
-    height: 600px;
-}
+// .main-top {
+//     height: 600px;
+// }
 
-.main-middle {
-    height: 600px;
-    background-color: #B75253;
-}
+// .main-middle {
+//     height: 600px;
+//     background-color: #B75253;
+// }
 
-.main-middle-container {
+// .main-middle-container {
 
-}
+// }
 
-.main-bottom {
-    height: 600px;
-}
+// .main-bottom {
+//     height: 600px;
+// }
 </style>
