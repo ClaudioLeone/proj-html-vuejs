@@ -39,6 +39,18 @@ export default {
                 <div class="col d-flex flex-column align-items-center justify-content-center"><span>Graphic Design</span></div>
             </div>
         </div>
+
+        <div class="bottom d-flex justify-content-center align-items-center">
+            <div>
+                <img class="law-icon" src="../../assets/edu/img/Gavel-Illustration-e1556884768193.png" alt="Gavel-Illustration">
+            </div>
+
+            <div class="bottom-text-sect d-flex flex-column align-items-start justify-content-center">
+                <h3>Law Faculty</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Error quam nam vero ratione magnam deserunt mollitia consequuntur officiis repellendus quibusdam culpa quae provident dolore in velit, hic, iure ad illo.</p>
+                <button>Read More</button>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -105,7 +117,7 @@ p {
     padding: 20px 0;
 }
 .row {
-    width: 100%;
+    width: 85%;
     height: 8rem;
 
     .col {
@@ -126,4 +138,29 @@ p {
     }
 }
 
+.bottom {
+    padding: 20px 0;
+}
+.law-icon {
+    width: 65%;
+}
+.bottom-text-sect {
+    width: 40%;
+
+    p {
+        padding: 20px 0;
+    }
+
+    button {
+        background-color: #B75253;
+        color: white;
+        padding: 15px 10px;
+        border: none;
+        border-radius: 35px;
+        width: 35%;
+        font-size: 0.8rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+}
 </style>
