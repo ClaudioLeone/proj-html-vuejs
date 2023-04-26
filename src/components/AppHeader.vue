@@ -50,6 +50,10 @@
     width: 20%;
 }
 
+#logo {
+    width: 90%;
+}
+
 .navbar {
 
     ul {
@@ -59,7 +63,7 @@
     ul > li {
         list-style-type: none;
         padding: 0 20px;
-        font-size: 0.75rem;
+        font-size: 0.7rem;
         font-weight: bold;
     }
 
