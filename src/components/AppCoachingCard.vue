@@ -1,9 +1,6 @@
 <script>
 export default {
     name: "AppCoachingCard",
-    // props: {
-    //     cardDate: String,
-    // },
     data() {
         return {
             cardTitle: "Coaching Sessions",
@@ -17,7 +14,6 @@ export default {
 <template>
     <div class="card d-flex flex-column align-items-center">
         <h5>{{ cardTitle }}</h5>
-        <cardDate></cardDate>
         <p>{{ cardText }}</p>
         <button>{{ cardBtnTxt }}</button>
     </div>
@@ -42,7 +38,7 @@ export default {
         border-radius: 35px;
         padding: 10px 15px;
         position: absolute;
-        left: 118px;
+        left: 110px;
         bottom: -22px;
     }
 }

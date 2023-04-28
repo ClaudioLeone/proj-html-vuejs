@@ -11,7 +11,7 @@ export default {
 
 <template>
     <div class="main-top container">
-        <div class="upper d-flex justify-content-around">
+        <div class="upper d-flex justify-content-center align-items-center">
             <div class="d-flex flex-column upper-text-sect justify-content-center">
                 <img class="books-icon" src="../../assets/edu/img/Books-icon.png" alt="">
                 <h3>Thousands of courses for any type of student</h3>
@@ -19,9 +19,9 @@ export default {
                 <button><a href="#">Browse through courses</a></button>
             </div>
 
-            <div class="grad-ill-container d-flex justify-content-end">
-                <img class="graduation-illustration" src="../../assets/edu/img/Graduation-Illustration.png" alt="Graduation-Illustration">
-            </div>
+            
+            <img class="graduation-illustration" src="../../assets/edu/img/Graduation-Illustration.png" alt="Graduation-Illustration">
+
         </div>
 
         <div class="middle d-flex flex-column justify-content-center align-items-center">
@@ -56,10 +56,8 @@ export default {
 
 <style scoped lang="scss">
 .books-icon {
-    width: 30px;
-    position: absolute;
-    left: 0;
-    top: -5px;
+    width: 40px;
+    margin-bottom: 10px;
 }
 
 h3 {
@@ -74,7 +72,6 @@ p {
     padding: 50px 0;
 }
 .upper-text-sect {
-    position: relative;
     width: 30%;
     p {
         font-size: 0.7rem;
@@ -102,11 +99,9 @@ p {
     padding: 5px 0;
 }
 
-.grad-ill-container {
-    width: 35%;
-    .graduation-illustration {
-    width: 100%;
-}
+.graduation-illustration {
+    width: 25%;
+    
 }
 .middle {
     text-align: center;
@@ -139,7 +134,7 @@ p {
 }
 
 .bottom {
-    padding: 20px 0;
+    padding: 10px 0 50px 0;
 }
 .law-icon {
     width: 65%;
