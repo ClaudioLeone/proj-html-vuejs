@@ -32,11 +32,11 @@ export default {
             </div>
             
             <div class="row">
-                <div class="col d-flex flex-column align-items-center justify-content-center"><span>Law Faculty</span></div>
-                <div class="col d-flex flex-column align-items-center justify-content-center"><span>Economy</span></div>
-                <div class="col d-flex flex-column align-items-center justify-content-center"><span>Medicine</span></div>
-                <div class="col d-flex flex-column align-items-center justify-content-center"><span>Computer Science</span></div>
-                <div class="col d-flex flex-column align-items-center justify-content-center"><span>Graphic Design</span></div>
+                <div class="col d-flex flex-column align-items-center justify-content-center"><img class="faculties-icons" src="../../assets/edu/img/Gavel-v2.png" alt="Gavel-v2"><span>Law Faculty</span></div>
+                <div class="col d-flex flex-column align-items-center justify-content-center"><img class="faculties-icons" src="../../assets/edu/img/Coins-tabs-v2.png" alt="Gavel-v2"><span>Economy</span></div>
+                <div class="col d-flex flex-column align-items-center justify-content-center"><img class="faculties-icons" src="../../assets/edu/img/Medicine-tabs-v2.png" alt="Gavel-v2"><span>Medicine</span></div>
+                <div class="col d-flex flex-column align-items-center justify-content-center"><img class="faculties-icons" src="../../assets/edu/img/Computer-tabs-v2.png" alt="Gavel-v2"><span>Computer Science</span></div>
+                <div class="col d-flex flex-column align-items-center justify-content-center"><img class="faculties-icons" src="../../assets/edu/img/Palette-tabs-v2.png" alt="Gavel-v2"><span>Graphic Design</span></div>
             </div>
         </div>
 
@@ -126,10 +126,19 @@ p {
             font-size: 0.7rem;
         }
     }
-
     .col:hover {
         color: white;
         background-color: #B75253;
+
+        .faculties-icons {
+            filter: brightness(0) invert(1);
+            -webkit-filter: brightness(0) invert(1);
+        }
+    }
+
+    .faculties-icons {
+        width: 60px;
+        margin-bottom: 10px;
     }
 }
 

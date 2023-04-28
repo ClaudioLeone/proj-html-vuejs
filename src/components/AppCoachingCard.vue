@@ -27,6 +27,11 @@ export default {
     padding: 20px 25px;
     position: relative;
 
+    p {
+        color: gray;
+        font-size: 0.9rem;
+    }
+
     h5 {
         font-weight: bold;
     }

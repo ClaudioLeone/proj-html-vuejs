@@ -124,6 +124,7 @@ export default {
 .top-left-text > p, .top-right-text > p {
     font-size: 0.85rem;
     font-weight: lighter;
+    color: lightgray;
 }
 
 .bottom-left-text {
@@ -140,5 +141,6 @@ export default {
 .bottom-left-text > p, .bottom-right-text > p {
     font-size: 0.85rem;
     font-weight: lighter;
+    color: lightgray;
 }
 </style>
