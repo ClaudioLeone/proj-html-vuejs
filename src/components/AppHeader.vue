@@ -65,6 +65,11 @@
         padding: 0 20px;
         font-size: 0.7rem;
         font-weight: bold;
+        cursor: pointer;
+    }
+
+    ul > li:hover {
+        color: #BAAC46;
     }
 
     button {
