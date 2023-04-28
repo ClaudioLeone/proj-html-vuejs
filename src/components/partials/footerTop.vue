@@ -42,7 +42,7 @@
 .newsletter-section {
     color: white;
     background-color: #B75253;
-    padding: 25px 0;
+    padding: 35px 0;
 
     h5 {
         margin: 0;
@@ -99,7 +99,6 @@
 }
 
 .partners-section > div {
-
     text-align: center;
 }
 
