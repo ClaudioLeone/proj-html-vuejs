@@ -86,7 +86,8 @@ export default {
     padding: 20px 0;
 }
 .upper > h3 {
-    padding: 10px 0
+    padding: 10px 0;
+    font-weight: bold;
 }
 
 button {
